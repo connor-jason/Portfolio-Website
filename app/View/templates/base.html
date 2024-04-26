@@ -1,0 +1,25 @@
+{% extends 'bootstrap/base.html' %} {% import 'bootstrap/wtf.html' as wtf %} {%
+block styles %} {{super()}}
+<link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}" />
+{% endblock %} {% block navbar %}
+
+<nav class="navbar">
+    <div class="container-fluid">
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="{{ url_for('routes.index')}}">Home</a></li>
+                <li><a href="{{ url_for('routes.coding_journey')}}">My Coding Journey</a></li>
+                <li><a href="{{ url_for('routes.about_me')}}">About Me</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div>
+    {% with messages = get_flashed_messages() %} {% if messages %} {% for
+    message in messages %}
+    <div class="alert alert-info">{{ message }}</div>
+    {% endfor %} {% endif %} {% endwith %}
+</div>
+{% endblock %}

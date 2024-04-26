@@ -1,0 +1,99 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    background-color: #171717;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding-top: 80px;
+    font-size: 34px;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #171717;
+    color: #fff;
+    padding: 20px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.navbar-nav > li {
+    margin: 0 15px;
+}
+
+.navbar-nav > li > a {
+    color: #d735ff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.navbar-nav > li > a:hover {
+    color: #9300b8;
+    background-color: transparent;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a {
+    color: #d735ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9300b8;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.post-box {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+    .post-box {
+        width: 46%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .post-box {
+        width: 95%;
+    }
+}
+
+.postlist {
+    display: flex;
+    flex-wrap: wrap;
+}
