@@ -7,22 +7,17 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Define a route to serve the index.html file
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+    res.sendFile(path.join(__dirname, 'public', 'html', 'index.html'));
 });
 
 // Define a route to serve the index.html file when /index is requested
 app.get('/index', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'));
+    res.sendFile(path.join(__dirname, 'public', 'html', 'index.html'));
 });
 
-// Define a route to serve the about_me.html file
-app.get('/about_me', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'about_me.html'));
-});
-
-// Define a route to serve the coding_journey.html file
-app.get('/coding_journey', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'coding_journey.html'));
+// Define a route to serve the index.html file when /home is requested
+app.get('/home', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'html', 'index.html'));
 });
 
 // Start the server
