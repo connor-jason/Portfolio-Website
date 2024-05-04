@@ -1,15 +1,39 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: normal;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     background-color: #171717;
-    background: rgb(24,23,24);
-    background: linear-gradient(162deg, rgba(24,23,24,1) 0%, rgba(14,0,28,1) 48%, rgba(0,0,23,1) 100%);
+    background: rgb(14,12,14);
+    background: linear-gradient(162deg, rgba(14,12,14,1) 0%, rgba(21,0,42,1) 48%, rgba(0,0,24,1) 100%);
     color: #fff;
+    height: 100vh;
 }
+
 
 header {
     padding-top: 80px;
     font-size: 34px;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+    padding-top: 20vh;
+    margin-left: 30vw;
+}
+
+.subheading {
+    font-size: 32px;
+    font-weight: normal;
+    text-align: left;
+}
+
+.name {
+    font-size: 96px;
+    font-weight: bold;
+    text-align: left; /* Center the name within its container */
 }
 
 .navbar {
@@ -17,7 +41,6 @@ header {
     display: flex;
     top: 0;
     width: 100%;
-    z-index: 1000;
     background-color: transparent;
     color: #fff;
     padding: 20px;
@@ -63,7 +86,20 @@ a:hover {
     transition: color 0.2s ease;
 }
 
-.post-box {
+.post-box-right {
+    border: 2px solid #fff;
+    padding: 10px;
+    margin: 10px;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.post-box-left {
     border: 2px solid #fff;
     padding: 10px;
     margin: 10px;
