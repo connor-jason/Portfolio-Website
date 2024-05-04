@@ -2,6 +2,8 @@ body {
     font-family: 'Courier New', Courier, monospace;
     font-weight: normal;
     background-color: #171717;
+    background: rgb(24,23,24);
+    background: linear-gradient(162deg, rgba(24,23,24,1) 0%, rgba(14,0,28,1) 48%, rgba(0,0,23,1) 100%);
     color: #fff;
     margin: 0;
     padding: 0;
@@ -18,7 +20,7 @@ header {
     top: 0;
     width: 100%;
     z-index: 1000;
-    background-color: #171717;
+    background-color: transparent;
     color: #fff;
     padding: 20px;
 }
