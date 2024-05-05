@@ -236,15 +236,12 @@ a:hover {
     }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
-
 .design-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 100px 0;
-    font-family: Jost;
 }
 
 .design {
