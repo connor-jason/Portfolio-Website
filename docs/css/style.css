@@ -17,7 +17,8 @@ body {
     justify-content: center;
     font-size: 96px;
     margin-top: 35vh;
-    margin-left: calc(50% - 3em);
+    margin-left: calc(50% - 3.2em);
+    margin-right: calc(50% - 3.2em);
 }
 
 /* Styles for the subheading */
@@ -34,18 +35,18 @@ body {
     padding-left: 10px;
 }
 
+/* Typewriter effect */
 .typewriter {
     overflow: hidden;
     border-right: .15em solid #9300b8;
     white-space: nowrap;
     animation: typing 1.5s steps(30, end), blink-caret 1.3s infinite;
-    margin-right: 38%;
 }
 
 /* Keyframes for typing animation */
 @keyframes typing {
     from { width: 0 }
-    to { width: 62% }
+    to { width: 100% }
 }
 
 /* Keyframes for blinking cursor */
@@ -72,10 +73,10 @@ body {
 /* Keyframes for fade-in animation */
 @keyframes fadeInAnimation {
     from {
-        opacity: 0; /* Start with opacity 0 (hidden) */
+        opacity: 0;
     }
     to {
-        opacity: 1; /* End with opacity 1 (fully visible) */
+        opacity: 1;
     }
 }
 
