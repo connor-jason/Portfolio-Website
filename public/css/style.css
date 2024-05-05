@@ -7,58 +7,86 @@ body {
     background: rgb(14,12,14);
     background: linear-gradient(162deg, rgba(14,12,14,1) 0%, rgba(21,0,42,1) 48%, rgba(0,0,24,1) 100%);
     color: #fff;
-    height: 100vh;
 }
 
-/* Styles for the title container */
+/* Styles for the container */
 .title-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: left;
-    padding-top: 20vh;
-    margin-left: 30vw;
+    align-items: left;
+    justify-content: center;
+    font-size: 96px;
+    margin-top: 35vh;
+    margin-left: calc(50% - 3em);
 }
 
 /* Styles for the subheading */
 .subheading {
     font-size: 32px;
     font-weight: normal;
-    text-align: left;
+    transition: opacity 0.5s ease-in-out;
 }
 
-/* Styles for the name */
+/* Styles for the title */
 .name {
-    font-size: 96px;
-    font-weight: bold;
-    text-align: left;
+    font-weight: bold; 
+    margin: -15px; 
+    padding-left: 10px;
 }
 
-/* Styles for the navbar */
-.navbar {
-    position: static;
-    display: flex;
-    top: 0;
-    width: 100%;
-    background-color: transparent;
-    color: #fff;
-    padding: 20px;
-    list-style-type: none;
-    justify-content: center;
-    border: 1px solid #fff;
+.typewriter {
+    overflow: hidden;
+    border-right: .15em solid #9300b8;
+    white-space: nowrap;
+    animation: typing 1.5s steps(30, end), blink-caret 1.3s infinite;
+    margin-right: 38%;
 }
 
-.navbar > li {
-    margin: 0 15px;
+/* Keyframes for typing animation */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 62% }
 }
 
-.navbar > li > a {
+/* Keyframes for blinking cursor */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #9300b8; }
+}
+
+/* Initially hide the div */
+#developerDiv {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+/* CSS class to trigger fade-in animation */
+.fade-in {
+    animation: fadeInAnimation 1s ease-in-out 1.5s forwards;
+}
+
+.fade-in-2 {
+    animation: fadeInAnimation 1s ease-in-out 2.3s forwards;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0; /* Start with opacity 0 (hidden) */
+    }
+    to {
+        opacity: 1; /* End with opacity 1 (fully visible) */
+    }
+}
+
+
+a {
     color: #d735ff;
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
-.navbar > li > a:hover {
+a:hover {
     color: #9300b8;
     background-color: transparent;
     text-decoration: none;
@@ -95,7 +123,6 @@ body {
     width: 450px; 
     height: 240px;
     box-shadow: 0 0 20px rgb(226, 182, 255);
-    transition: 0.2s ease;
 }
 
 /* Styles for the text box */
@@ -115,4 +142,84 @@ body {
 .image-box:hover {
     box-shadow: 0 0 20px rgb(182, 73, 255);
     transition: 0.2s ease;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+}
+
+.btn-content {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    border-radius: 100px;
+    transition: 0.5s;
+    outline: 0.1em solid transparent;
+    outline-offset: 0.2em;
+    transform: rotate(90deg);
+}
+
+.btn-content:hover {
+    transition: ease-in-out 0.5s;
+    box-shadow: 0 0 20px rgb(226, 182, 255);
+}
+
+.icon-arrow {
+    transition: 0.5s;
+    margin-right: 0px;
+    transform: scale(0.6);
+    transition: 0.5s;
+    margin-right: 20px;
+}
+
+.icon-arrow {
+    width: 20px;
+    margin-left: 15px;
+    position: relative;
+    top: 0%;
+}
+
+/* SVG */
+#arrow-icon-one {
+    transition: 0.4s;
+    transform: translateX(-60%);
+}
+
+#arrow-icon-two {
+    transition: 0.5s;
+    transform: translateX(-30%);
+}
+
+.btn-content #arrow-icon-three {
+    animation: color_anim 1s infinite 0.2s;
+}
+
+.btn-content #arrow-icon-one {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.6s;
+}
+
+.btn-content #arrow-icon-two {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.4s;
+}
+
+/* SVG animations */
+@keyframes color_anim {
+    0% {
+        fill: white;
+    }
+
+    50% {
+        fill: #a371b0;
+    }
+
+    100% {
+        fill: #9300b8;
+    }
 }
