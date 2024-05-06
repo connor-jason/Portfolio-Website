@@ -112,50 +112,6 @@ a:hover {
     text-align: center;
 }
 
-/* Styles for the post container */
-.post-container {
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 10vh;
-    margin-right: 10vw;
-    margin-left: 10vw;
-}
-
-/* Styles for the image box */
-.image-box {
-    padding: 10px;
-    margin: 10px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 450px;
-    height: 240px;
-    box-shadow: 0 0 20px rgb(226, 182, 255);
-}
-
-/* Styles for the text box */
-.text-box {
-    padding: 10px;
-    margin: 10px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    width: 450px;
-    height: 240px;
-}
-
-/* Hover styles for the image box */
-.image-box:hover {
-    box-shadow: 0 0 20px rgb(182, 73, 255);
-    transition: 0.2s ease;
-}
-
 .btn-container {
     display: flex;
     justify-content: center;
@@ -304,3 +260,56 @@ a:hover {
         transform: translateX(-50%);
     }
 }
+
+.card {
+    width: 90vw;
+    height: 40vw;
+    border-radius: 4px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .card p {
+    height: 100%;
+    flex: 1;
+    flex-direction: column;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: all .6s;
+    border: 1px solid #9300b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card p:hover {
+    flex: 3.3;
+    transform: rotate(0deg);
+    transition: all .6s;
+    img {
+        height: 50%;
+        width: auto;
+        transform: translateY(-10vh);
+    }
+    span {
+        opacity: 1;
+    }
+  }
+  
+  .card p span {
+    border:white solid 1px;
+    transition: all .6s;
+    justify-content:center;
+    opacity: 0;
+  }
+
+  .card p img {
+    height: 100%;
+    width: auto;
+    transform: rotate(-90deg);
+    transition: all .6s;
+  }
