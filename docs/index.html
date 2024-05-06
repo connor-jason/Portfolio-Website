@@ -4,54 +4,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Connor Jason's Portfolio</title>
+        <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="/css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link
             href="https://fonts.googleapis.com/css2?family=Freeman&family=Outfit:wght@100..900&display=swap"
             rel="stylesheet">
-        <script>
-            // Smooth scroll to section when anchor link is clicked
-            document.addEventListener("DOMContentLoaded", function() {
-                const links = document.querySelectorAll("a[href^='#']");
-
-                links.forEach(link => {
-                    link.addEventListener("click", function(event) {
-                        event.preventDefault();
-                        const targetId = this.getAttribute("href").substring(1);
-                        const targetElement = document.getElementById(targetId);
-
-                        if (targetElement) {
-                            window.scrollTo({
-                                top: targetElement.offsetTop,
-                                behavior: "smooth"
-                            });
-                        }
-                    });
-                });
-            });
-
-            // Cycle through developer words for the title
-            document.addEventListener("DOMContentLoaded", function() {
-                const developerWordElement = document.getElementById("developer-word");
-                const developerWords = ["Python", "JavaScript", "Web", "Software"];
-                let currentIndex = 0;
-
-                function cycleDeveloperWord() {
-                    developerWordElement.style.transition = "opacity 0.5s ease-in-out";
-                    developerWordElement.style.opacity = 0;
-
-                    setTimeout(() => {
-                        currentIndex = (currentIndex + 1) % developerWords.length;
-                        developerWordElement.textContent = developerWords[currentIndex];
-                        developerWordElement.style.opacity = 1;
-                    }, 350);
-                }
-
-                setInterval(cycleDeveloperWord, 2300);
-            });
-
-        </script>
     </head>
 
     <body>
@@ -244,7 +203,10 @@
             </div>
             </div> 
         </section>
-        <br>
+
+            <!-- Link to JavaScript files -->
+    <script src="../js/smooth-scroll.js"></script>
+    <script src="../js/developer-word-cycle.js"></script>
     </body>
 
 </html>
