@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     align-items: left;
     justify-content: center;
-    font-size: 96px;
+    font-size: calc(3vw + 5vh);
     margin-top: 35vh;
     margin-left: calc(50% - 3.2em);
     margin-right: calc(50% - 3.2em);
@@ -23,7 +23,7 @@ body {
 
 /* Styles for the subheading */
 .subheading {
-    font-size: 32px;
+    font-size: calc(1vw + 1.5vh);
     font-weight: normal;
     transition: opacity 0.5s ease-in-out;
 }
@@ -31,8 +31,8 @@ body {
 /* Styles for the title */
 .name {
     font-weight: bold;
-    margin: -15px;
-    padding-left: 10px;
+    margin: calc(-0.75vw - 0.75vh);
+    padding-left: calc(0.75vw + 0.25vh);
 }
 
 /* Typewriter effect */
@@ -124,7 +124,6 @@ a:hover {
     justify-content: center;
     text-decoration: none;
     font-family: "Poppins", sans-serif;
-    font-size: 25px;
     border-radius: 100px;
     transition: 0.5s;
     outline: 0.1em solid transparent;
@@ -142,7 +141,8 @@ a:hover {
     margin-right: 0px;
     transform: scale(0.6);
     transition: 0.5s;
-    margin-right: 20px;
+    margin-right: 25px;
+    margin-top: 2px;
 }
 
 .icon-arrow {
