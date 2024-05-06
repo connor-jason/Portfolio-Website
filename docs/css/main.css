@@ -34,12 +34,14 @@ body {
     }
 }
 
+/* Style for links */
 a {
     color: #d735ff;
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
+/* Style for links on hover */
 a:hover {
     color: #9300b8;
     background-color: transparent;
