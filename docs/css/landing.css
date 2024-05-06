@@ -1,0 +1,141 @@
+/* Styles for the container */
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    font-size: calc(3.3vw + 4.3vh);
+    margin-top: 35vh;
+    margin-left: calc(50% - 3.2em);
+    margin-right: calc(50% - 3.2em);
+}
+
+/* Styles for the subheading */
+.subheading {
+    font-size: calc(1vw + 1.5vh);
+    font-weight: normal;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Styles for the title */
+.name {
+    font-weight: bold;
+    margin: calc(-0.75vw - 0.75vh);
+    padding-left: calc(0.75vw + 0.25vh);
+}
+
+/* Typewriter effect */
+.typewriter {
+    overflow: hidden;
+    border-right: .15em solid #9300b8;
+    white-space: nowrap;
+    animation: typing 1.5s steps(30, end), blink-caret 1.3s infinite;
+}
+
+/* Keyframes for typing animation */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+/* Keyframes for blinking cursor */
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #9300b8;
+    }
+}
+
+/* Initially hide the div */
+#developerDiv {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+}
+
+.btn-content {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    border-radius: 100px;
+    transition: 0.5s;
+    outline: 0.1em solid transparent;
+    outline-offset: 0.2em;
+    transform: rotate(90deg);
+}
+
+.btn-content:hover {
+    transition: ease-in-out 0.5s;
+    box-shadow: 0 0 20px rgb(226, 182, 255);
+}
+
+.icon-arrow {
+    transition: 0.5s;
+    margin-right: 0px;
+    transform: scale(0.6);
+    transition: 0.5s;
+    margin-right: 25px;
+    margin-top: 2px;
+}
+
+.icon-arrow {
+    width: 20px;
+    margin-left: 15px;
+    position: relative;
+    top: 0%;
+}
+
+/* SVG */
+#arrow-icon-one {
+    transition: 0.4s;
+    transform: translateX(-60%);
+}
+
+#arrow-icon-two {
+    transition: 0.5s;
+    transform: translateX(-30%);
+}
+
+.btn-content #arrow-icon-three {
+    animation: color_anim 1s infinite 0.2s;
+}
+
+.btn-content #arrow-icon-one {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.6s;
+}
+
+.btn-content #arrow-icon-two {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.4s;
+}
+
+/* SVG animations */
+@keyframes color_anim {
+    0% {
+        fill: white;
+    }
+
+    50% {
+        fill: #a371b0;
+    }
+
+    100% {
+        fill: #9300b8;
+    }
+}

@@ -1,0 +1,55 @@
+@import url('landing.css');
+@import url('projects.css');
+@import url('about-me.css');
+@import url('timeline.css');
+
+/* Styles for the body */
+body {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #171717;
+    background: rgb(14, 12, 14);
+    background: linear-gradient(162deg, rgba(14, 12, 14, 1) 0%, rgba(21, 0, 42, 1) 48%, rgba(0, 0, 24, 1) 100%);
+    color: #fff;
+}
+
+/* CSS class to trigger fade-in animation */
+.fade-in {
+    animation: fadeInAnimation 1s ease-in-out 1.5s forwards;
+}
+
+.fade-in-2 {
+    animation: fadeInAnimation 1s ease-in-out 2.3s forwards;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+a {
+    color: #d735ff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #9300b8;
+    background-color: transparent;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+/* Styles for the section head */
+.section-head {
+    font-size: 58px;
+    font-weight: normal;
+    text-align: center;
+}
