@@ -49,7 +49,7 @@ a:hover {
 
 /* Styles for the section head */
 .section-head {
-    font-size: 58px;
+    font-size: calc(1vw + 3vh);
     font-weight: normal;
     text-align: center;
 }
