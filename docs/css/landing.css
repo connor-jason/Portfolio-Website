@@ -79,11 +79,6 @@
     transform: rotate(90deg);
 }
 
-.btn-content:hover {
-    transition: ease-in-out 0.5s;
-    box-shadow: 0 0 20px rgb(226, 182, 255);
-}
-
 .icon-arrow {
     transition: 0.5s;
     margin-right: 0px;
