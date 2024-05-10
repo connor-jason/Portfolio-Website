@@ -5,6 +5,7 @@ const AboutMeComponent = () => {
     <div id="about-me" style={{ marginTop: '10vh' }}>
       <div className="container" style={{ textAlign: 'center' }}>
         <header className="section-head">About Me</header>
+        <div class="square"></div>
         <p>Hi, I'm Connor (again)</p>
         <p>I go to WPI!!!</p>
         <p>I might switch to JS for this (I did!!)</p>

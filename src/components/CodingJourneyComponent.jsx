@@ -3,14 +3,14 @@ import React from 'react';
 const TimelineElementLeft = ({ title, description }) => {
   return (
     <>
-                    <div class="timeline-component timeline-content">
-                        <h3>{title}</h3>
-                        <p>{description}</p>
-                    </div>
-                    <div class="timeline-middle">
-                        <div class="timeline-circle"></div>
-                    </div>
-                    <div class="timeline-empty"></div>
+      <div class="timeline-component timeline-content">
+          <h3>{title}</h3>
+          <p>{description}</p>
+      </div>
+      <div class="timeline-middle">
+          <div class="timeline-circle"></div>
+      </div>
+      <div class="timeline-empty"></div>
     </>
   );
 };
@@ -34,6 +34,7 @@ const CodingJourneyComponent = () => {
   return (
     <div id="coding-journey" style={{ marginTop: '10vh' }}>
       <div className="section-head">My Coding Journey</div>
+      <div className="square"></div>
       <section className="design-section">
         <div className="timeline">
           <TimelineElementLeft title="Java" description="Java programming language." />

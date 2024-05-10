@@ -2,6 +2,7 @@
 @import url('projects.css');
 @import url('about-me.css');
 @import url('timeline.css');
+@import url('footer.css');
 
 /* Styles for the body */
 body {
@@ -54,4 +55,18 @@ a:hover {
     font-size: calc(1vw + 3vh);
     font-weight: normal;
     text-align: center;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 0.4vh;
+    width: calc(12vw + 30vh);
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vh;
+    margin-bottom: 8vh;
 }
