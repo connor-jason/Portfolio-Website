@@ -27,13 +27,13 @@ const ProjectCards = () => {
     <div  id="projects">
     <div className="section-head">Projects</div>
     <div class="square"></div>
-    <div class="card">
-      <ProjectCard title='ReConnect' image={ReConnect} description="This could be a very cool project 1. So many cool things about project 1." />
-      <ProjectCard title='Project2' image={Portfolio} description="This could be a very cool project 2. So many cool things about project 2." />
-      <ProjectCard title='Project3' image={Portfolio} description="This could be a very cool project 3. So many cool things about project 3." />
-      <ProjectCard title='Project4' image={Portfolio} description="This could be a very cool project 4. So many cool things about project 4." />
-      <ProjectCard title='This Website!' image={Portfolio} description="This could be a very cool project 5. So many cool things about project 5." />
-    </div>
+      <div class="card">
+        <ProjectCard title='ReConnect' image={ReConnect} description="This could be a very cool project 1. So many cool things about project 1." />
+        <ProjectCard title='Project2' image={Portfolio} description="This could be a very cool project 2. So many cool things about project 2." />
+        <ProjectCard title='Project3' image={Portfolio} description="This could be a very cool project 3. So many cool things about project 3." />
+        <ProjectCard title='Project4' image={Portfolio} description="This could be a very cool project 4. So many cool things about project 4." />
+        <ProjectCard title='This Website!' image={Portfolio} description="This could be a very cool project 5. So many cool things about project 5." />
+      </div>
     </div>
   );
 };

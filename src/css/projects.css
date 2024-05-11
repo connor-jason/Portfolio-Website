@@ -13,7 +13,7 @@
   .card p {
     height: 100%;
     flex: 1;
-    flex-direction: column;
+    flex-direction: row;
     overflow: hidden;
     cursor: pointer;
     border-radius: 3px;
@@ -26,15 +26,23 @@
   
   .card p:hover {
     flex: 3.3;
-    transform: rotate(0deg);
     transition: all .6s;
+    transform: rotate(0deg);
+    display: grid;
+    grid-template-rows: 1fr 2fr 4fr;
+    grid-row: span 3;
+    align-content: space-around;
     img {
-        height: 50%;
-        width: auto;
-        transform: translateY(-10vh);
+        max-width:90%;
+        height: auto;
+        transform: rotate(0deg);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     span {
         opacity: 1;
+        margin-inline: auto;
     }
   }
   
@@ -51,8 +59,19 @@
     transition: all .6s;
   }
 
-  .project-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+@media only screen and (max-width: 768px) {
+  .card {
+      flex-direction: column;
+      height: 90vh;
+      margin: 0 auto 0;
   }
+  .card p {
+    margin: 0;
+  }
+  .card p img {
+    width: 110%;
+    height: auto;
+    transform: rotate(0deg);
+    transition: all .6s;
+  }
+}
