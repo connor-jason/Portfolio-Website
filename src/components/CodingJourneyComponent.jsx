@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TimelineElementLeft = ({ title, description }) => {
+const TimelineElementLeft = ({ title, description, date }) => {
   return (
     <>
       <div class="timeline-component timeline-content">
@@ -10,15 +10,15 @@ const TimelineElementLeft = ({ title, description }) => {
       <div class="timeline-middle">
           <div class="timeline-circle"></div>
       </div>
-      <div class="timeline-empty"></div>
+      <div class="timeline-date" style={{ justifyContent: 'left' }}>{date}</div>
     </>
   );
 };
 
-const TimelineElementRight = ({ title, description }) => {
+const TimelineElementRight = ({ title, description, date }) => {
     return (
       <>
-        <div className="timeline-empty"></div>
+        <div className="timeline-date" style={{ justifyContent: 'right' }}>{date}</div>
         <div className="timeline-middle">
           <div className="timeline-circle"></div>
         </div>
@@ -37,12 +37,12 @@ const CodingJourneyComponent = () => {
       <div className="square"></div>
       <section className="design-section">
         <div className="timeline">
-          <TimelineElementLeft title="Java" description="Java programming language." />
-          <TimelineElementRight title="Python" description="Python programming language." />
-          <TimelineElementLeft title="Flask" description="Flask web development." />
-          <TimelineElementRight title="HTML" description="Learned some HTML." />
-          <TimelineElementLeft title="CSS" description="Learned some CSS." />
-          <TimelineElementRight title="JavaScript" description="JavaScript programming language." />
+          <TimelineElementLeft title="Java" description="Java programming language." date="2021" />
+          <TimelineElementRight title="Python" description="Python programming language." date="2023" />
+          <TimelineElementLeft title="Flask" description="Flask web development." date="2024" />
+          <TimelineElementRight title="HTML" description="Learned some HTML." date="2024" />
+          <TimelineElementLeft title="CSS" description="Learned some CSS." date="2024" />
+          <TimelineElementRight title="JavaScript" description="JavaScript programming language." date="2024" />
         </div>
       </section>
     </div>

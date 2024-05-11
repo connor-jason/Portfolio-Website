@@ -33,6 +33,10 @@
     overflow-wrap: break-word !important;
     margin: 1rem;
     margin-bottom: 20px;
+    opacity: 0;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range: 10vh 20vh;
 }
 
 .timeline-component {
@@ -51,7 +55,22 @@
     height: 15px;
     border-radius: 50%;
     background-image: linear-gradient(45deg, white, #a371b0, #9300b8);
-    -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
+}
+
+.timeline-date {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    opacity: 0;
+    animation: fade-in linear forwards;
+    animation-timeline: view();
+    animation-range: 10vh 20vh;
+}
+
+@keyframes fade-in {
+    to {
+        opacity: 1;
+    }
 }
 
