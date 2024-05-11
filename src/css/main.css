@@ -4,15 +4,22 @@
 @import url('timeline.css');
 @import url('footer.css');
 
+:root {
+    --background: #171717;
+    --pink1: #d735ff;
+    --pink2: #9300b8;
+    --pink3: #a371b0;
+}
+
 /* Styles for the body */
 body {
     font-family: "Outfit", sans-serif;
     font-weight: 400;
     font-style: normal;
-    background-color: #171717;
-    background: rgb(14, 12, 14);
+    background-color: var(--background);
+    background: var(--background);
     background: linear-gradient(162deg, rgba(14, 12, 14, 1) 0%, rgba(21, 0, 42, 1) 48%, rgba(0, 0, 24, 1) 100%);
-    color: #fff;
+    color: white;
 }
 
 /* CSS class to trigger fade-in animation */
@@ -37,14 +44,14 @@ body {
 
 /* Style for links */
 a {
-    color: #d735ff;
+    color: var(--pink1);
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 /* Style for links on hover */
 a:hover {
-    color: #9300b8;
+    color: var(--pink2);
     background-color: transparent;
     text-decoration: none;
     transition: color 0.2s ease;
@@ -64,7 +71,7 @@ a:hover {
     border-radius: 5px;
     height: 0.4vh;
     width: calc(12vw + 30vh);
-    background-color: #ffffff;
+    background-color: white;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1vh;

@@ -43,6 +43,8 @@
     span {
         opacity: 1;
         margin-inline: auto;
+        align-self: start;
+        padding: 2vh;
     }
   }
   
