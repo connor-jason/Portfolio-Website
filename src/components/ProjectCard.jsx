@@ -15,7 +15,7 @@ import Portfolio from '../images/Portfolio/Portfolio_landing.png';
 const ProjectCard = ({ title, image, description }) => {
   return (
       <p>
-        <span style={{ transform: 'translateY(-12vh)' }}>{title}</span>
+        <span>{title}</span>
         <img src={image} alt="Project Image" />
         <span>{description}</span>
       </p>
