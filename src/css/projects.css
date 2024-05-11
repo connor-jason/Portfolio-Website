@@ -39,7 +39,6 @@
   }
   
   .card p span {
-    border:white solid 1px;
     transition: all .6s;
     justify-content:center;
     opacity: 0;
@@ -57,4 +56,3 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  

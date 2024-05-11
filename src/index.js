@@ -8,7 +8,8 @@ import CodingJourneyComponent from './components/CodingJourneyComponent';
 import FooterComponent from './components/FooterComponent';
 import './css/main.css';
 
-ReactDOM.render(
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
     <TitleComponent />
     <ProjectCard />
@@ -16,7 +17,6 @@ ReactDOM.render(
     <CodingJourneyComponent />
     <FooterComponent />
   </React.StrictMode>,
-  document.getElementById('root')
 );
 
 reportWebVitals();
