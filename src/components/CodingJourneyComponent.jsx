@@ -1,5 +1,12 @@
 import React from 'react';
 
+/**
+ * Represents a timeline element displayed on the left side.
+ * @param {string} title - The title of the timeline element.
+ * @param {string} description - The description of the timeline element.
+ * @param {string} date - The date of the timeline element.
+ * @returns {JSX.Element} The rendered timeline element.
+ */
 const TimelineElementLeft = ({ title, description, date }) => {
   return (
     <>
@@ -15,6 +22,13 @@ const TimelineElementLeft = ({ title, description, date }) => {
   );
 };
 
+/**
+ * Represents a timeline element displayed on the right side.
+ * @param {string} title - The title of the timeline element.
+ * @param {string} description - The description of the timeline element.
+ * @param {string} date - The date of the timeline element.
+ * @returns {JSX.Element} The rendered timeline element.
+ */
 const TimelineElementRight = ({ title, description, date }) => {
     return (
       <>
@@ -30,6 +44,10 @@ const TimelineElementRight = ({ title, description, date }) => {
     );
   };
 
+/**
+ * Represents the coding journey component.
+ * @returns {JSX.Element} The rendered coding journey component.
+ */
 const CodingJourneyComponent = () => {
   return (
     <div id="coding-journey" style={{ marginTop: '10vh' }}>

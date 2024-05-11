@@ -1,6 +1,10 @@
 import React from 'react';
 import '../css/about-me.css';
 
+/**
+ * Represents the About Me component.
+ * @returns {JSX.Element} The rendered about me element.
+ */
 const AboutMeComponent = () => {
   return (
     <div id="about-me" style={{ marginTop: '10vh' }}>

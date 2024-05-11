@@ -1,9 +1,11 @@
-// TitleComponent.jsx
-
 import React, { useEffect } from 'react';
 import { smoothScroll } from '../js/smooth-scroll';
 import { cycleDeveloperWord } from '../js/developer-word-cycle';
 
+/**
+ * TitleComponent is a functional component that renders a title section with a typewriter effect.
+ * @returns {JSX.Element} The rendered TitleComponent.
+ */
 const TitleComponent = () => {
     useEffect(() => {
         smoothScroll();

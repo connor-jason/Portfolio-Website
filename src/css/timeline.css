@@ -1,3 +1,4 @@
+/* Encapsulates the complete start and end of timeline */
 .design-section {
     display: flex;
     flex-direction: column;
@@ -5,17 +6,13 @@
     justify-content: center;
 }
 
-.design {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
+/* Styles for all the timeline elements */
 .timeline {
     display: grid;
     grid-template-columns: 1fr 3px 1fr;
 }
 
+/* Styles for the middle line of the timeline */
 .timeline-middle {
     position: relative;
     background-image: linear-gradient(45deg, white, var(--pink2), var(--pink1));
@@ -23,6 +20,7 @@
     height: 100%;
 }
 
+/* Styles for the content within the timeline */
 .timeline-content {
     padding: 20px;
     border: 3px solid white;
@@ -39,14 +37,12 @@
     animation-range: 10vh 20vh;
 }
 
+/* Styles for the components within the timeline */
 .timeline-component {
     margin: 0px 20px 20px 20px;
 }
 
-.main-middle {
-    opacity: 0;
-}
-
+/* Styles for the circle element of the timeline */
 .timeline-circle {
     position: relative;
     top: 0;
@@ -58,6 +54,7 @@
     transform: translateX(-50%);
 }
 
+/* Styles for the date element of the timeline */
 .timeline-date {
     display: flex;
     align-items: center;
@@ -68,9 +65,9 @@
     animation-range: 10vh 20vh;
 }
 
+/* Keyframes for the fade-in animation */
 @keyframes fade-in {
     to {
         opacity: 1;
     }
 }
-

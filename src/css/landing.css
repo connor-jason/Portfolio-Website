@@ -60,12 +60,14 @@
     transition: opacity 1s ease-in-out;
 }
 
+/* Styles for the button container */
 .btn-container {
     display: flex;
     justify-content: center;
     opacity: 0;
 }
 
+/* Styles for the button content */
 .btn-content {
     display: flex;
     align-content: center;
@@ -79,6 +81,7 @@
     transform: rotate(90deg);
 }
 
+/* Styles for the arrow icon */
 .icon-arrow {
     transition: 0.5s;
     margin-right: 0px;
@@ -95,32 +98,36 @@
     top: 0%;
 }
 
-/* SVG */
+/* Styles for the first arrow icon */
 #arrow-icon-one {
     transition: 0.4s;
     transform: translateX(-60%);
 }
 
+/* Styles for the second arrow icon */
 #arrow-icon-two {
     transition: 0.5s;
     transform: translateX(-30%);
 }
 
+/* Styles for the third arrow icon */
 .btn-content #arrow-icon-three {
     animation: color_anim 1s infinite 0.2s;
 }
 
+/* Styles for the first arrow icon */
 .btn-content #arrow-icon-one {
     transform: translateX(0%);
     animation: color_anim 1s infinite 0.6s;
 }
 
+/* Styles for the second arrow icon */
 .btn-content #arrow-icon-two {
     transform: translateX(0%);
     animation: color_anim 1s infinite 0.4s;
 }
 
-/* SVG animations */
+/* Keyframes for color animation */
 @keyframes color_anim {
     0% {
         fill: white;

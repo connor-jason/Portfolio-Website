@@ -1,5 +1,8 @@
-// developerWordCycle.js
 
+/**
+ * Cycles through developer words and updates the content of an HTML element.
+ * @returns {void}
+ */
 export const cycleDeveloperWord = () => {
     const developerWordElement = document.getElementById("developer-word");
     const developerWords = ["Python", "JavaScript", "Web", "Software"];

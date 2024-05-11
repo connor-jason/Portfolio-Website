@@ -12,6 +12,14 @@ import ReConnect from '../images/ReConnect/ReConnect_home.png';
 //Project 5
 import Portfolio from '../images/Portfolio/Portfolio_landing.png';
 
+/**
+ * Renders a project card component.
+ * @param {Object} props - The props object.
+ * @param {string} props.title - The title of the project.
+ * @param {string} props.image - The URL of the project image.
+ * @param {string} props.description - The description of the project.
+ * @returns {JSX.Element} The project card component.
+ */
 const ProjectCard = ({ title, image, description }) => {
   return (
       <p>
@@ -22,6 +30,10 @@ const ProjectCard = ({ title, image, description }) => {
   );
 };
 
+/**
+ * Renders a collection of project cards.
+ * @returns {JSX.Element} The project cards component.
+ */
 const ProjectCards = () => {
   return (
     <div  id="projects">

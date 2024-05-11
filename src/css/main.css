@@ -1,9 +1,11 @@
+/* Importing CSS files */
 @import url('landing.css');
 @import url('projects.css');
 @import url('about-me.css');
 @import url('timeline.css');
 @import url('footer.css');
 
+/* CSS variables */
 :root {
     --background: #171717;
     --pink1: #d735ff;
@@ -22,11 +24,12 @@ body {
     color: white;
 }
 
-/* CSS class to trigger fade-in animation */
+/* CSS class to trigger fade-in animation used by developer word */
 .fade-in {
     animation: fadeInAnimation 1s ease-in-out 1.5s forwards;
 }
 
+/* CSS class to trigger fade-in animation used by arrow */
 .fade-in-2 {
     animation: fadeInAnimation 1s ease-in-out 2.3s forwards;
 }
@@ -64,6 +67,7 @@ a:hover {
     text-align: center;
 }
 
+/* Styles for the underline of sections */
 .square {
     display: flex;
     justify-content: center;

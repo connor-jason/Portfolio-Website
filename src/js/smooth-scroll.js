@@ -1,3 +1,8 @@
+
+/**
+ * Enables smooth scrolling behavior when clicking on anchor links.
+ * @returns {void}
+ */
 export const smoothScroll = () => {
     const links = document.querySelectorAll("a[href^='#']");
 

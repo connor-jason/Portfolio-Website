@@ -1,71 +1,80 @@
-
+/* Styles for the card container */
 .card {
-    width: 90vw;
-    height: 40vw;
-    border-radius: 4px;
-    display: flex;
-    gap: 5px;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .card p {
-    height: 100%;
-    flex: 1;
-    flex-direction: row;
-    overflow: hidden;
-    cursor: pointer;
-    border-radius: 3px;
-    transition: all .6s;
-    border: 1px solid #9300b8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .card p:hover {
-    flex: 3.3;
-    transition: all .6s;
-    transform: rotate(0deg);
-    display: grid;
-    grid-template-rows: 1fr 2fr 4fr;
-    grid-row: span 3;
-    align-content: space-around;
-    img {
-        max-width:90%;
-        height: auto;
-        transform: rotate(0deg);
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    span {
-        opacity: 1;
-        margin-inline: auto;
-        align-self: start;
-        padding: 2vh;
-    }
-  }
-  
-  .card p span {
-    transition: all .6s;
-    justify-content:center;
-    opacity: 0;
-  }
+  width: 90vw;
+  height: 40vw;
+  border-radius: 4px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-  .card p img {
-    height: 100%;
-    width: auto;
-    transform: rotate(-90deg);
-    transition: all .6s;
-  }
+/* Styles for the card */
+.card p {
+  height: 100%;
+  flex: 1;
+  flex-direction: row;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all .6s;
+  border: 1px solid #9300b8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+/* Styles for the card on hover */
+.card p:hover {
+  flex: 3.3;
+  transition: all .6s;
+  transform: rotate(0deg);
+  display: grid;
+  grid-template-rows: 1fr 2fr 4fr;
+  grid-row: span 3;
+  align-content: space-around;
+}
+
+/* Styles for the image inside the card on hover */
+.card p:hover img {
+  max-width: 90%;
+  height: auto;
+  transform: rotate(0deg);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Styles for the span inside the card on hover */
+.card p:hover span {
+  opacity: 1;
+  margin-inline: auto;
+  align-self: start;
+  padding: 2vh;
+}
+
+/* Styles for the span inside the card */
+.card p span {
+  transition: all .6s;
+  justify-content: center;
+  opacity: 0;
+}
+
+/* Styles for the image inside the card */
+.card p img {
+  height: 100%;
+  width: auto;
+  transform: rotate(-90deg);
+  transition: all .6s;
+}
+
+/* Adjust behavior for mobile viewers */
 @media only screen and (max-width: 768px) {
   .card {
-      flex-direction: column;
-      height: 90vh;
-      margin: 0 auto 0;
+    flex-direction: column;
+    height: 90vh;
+    margin: 0 auto 0;
   }
   .card p {
     margin: 0;
