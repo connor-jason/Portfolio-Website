@@ -31,7 +31,7 @@
   transition: all .6s;
   transform: rotate(0deg);
   display: grid;
-  grid-template-rows: 1fr 2fr 4fr;
+  grid-template-rows: 1fr 2fr 4fr 1fr;
   grid-row: span 3;
   align-content: space-around;
 }
@@ -67,6 +67,12 @@
   width: auto;
   transform: rotate(-90deg);
   transition: all .6s;
+}
+
+.card p a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Adjust behavior for mobile viewers */

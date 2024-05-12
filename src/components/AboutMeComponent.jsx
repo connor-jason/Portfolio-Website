@@ -25,7 +25,6 @@ const AboutMeComponent = () => {
         even though I used to be very anti-Python. I love how powerful and diverse it can be. This website was my first project
         built using React which I have really enjoyed. I have used Flask with Python in the past, and this is significantly better
         in comparison. I am always looking to learn more and expand my knowledge.
-
         </p>
         <div className="socialLinks">
           <a href="https://github.com/connor-jason" target="_blank" rel="noopener noreferrer">GitHub</a>
