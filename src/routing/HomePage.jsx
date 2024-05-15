@@ -4,6 +4,7 @@ import ProjectCard from '../components/ProjectCard';
 import AboutMeComponent from '../components/AboutMeComponent';
 import CodingJourneyComponent from '../components/CodingJourneyComponent';
 import FooterComponent from '../components/FooterComponent';
+import ContactMeComponent from '../components/ContactMeComponent';
 
 /**
  * Renders the Home page.
@@ -16,6 +17,7 @@ const Home = () => {
             <ProjectCard />
             <AboutMeComponent />
             <CodingJourneyComponent />
+            <ContactMeComponent />
             <FooterComponent />
         </>
     );

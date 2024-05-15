@@ -17,7 +17,7 @@ const AboutMeComponent = () => {
     <div id="about-me" style={{ marginTop: '10vh' }}>
       <div className="container" style={{ textAlign: 'center' }}>
         <header className="section-head">About Me</header>
-        <div class="square"></div>
+        <div class="square"/>
         <p className="aboutMeBody">
         Hi, I'm Connor (again). I am a second-year student at Worcester Polytechnic Institute studying Computer Science. 
         I am very interested in emerging technologies, especially those involving Artificial Intelligence. So far, I have 

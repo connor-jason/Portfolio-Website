@@ -40,7 +40,7 @@ const ProjectCards = () => {
   return (
     <>
       <div id="projects" className="section-head">Projects</div>
-      <div class="square"></div>
+      <div class="square"/>
         <div class="card">
           <ProjectCard title='ReConnect' image={ReConnect} description="ReConnect was a platform built to connect faculty members with college students to find the best candidates to fill research opportunities. This was a full stack website using Flask for the frontend and SQLite for the backend." skills="Flask, Python, HTML, CSS, SQLite, Git" path="/ReConnect" />
           <ProjectCard title='Project2' image={Portfolio} description="This could be a very cool project 2. So many cool things about project 2." skills = "" path="Project2" />

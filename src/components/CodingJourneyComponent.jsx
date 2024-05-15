@@ -52,7 +52,7 @@ const CodingJourneyComponent = () => {
   return (
     <div id="coding-journey" style={{ marginTop: '10vh' }}>
       <div className="section-head">My Coding Journey</div>
-      <div className="square"></div>
+      <div className="square"/>
       <section className="design-section">
         <div className="timeline">
           <TimelineElementLeft title="Java" description="Java programming language." date="2021" />
