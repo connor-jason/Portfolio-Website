@@ -1,0 +1,59 @@
+/* Title */
+.projectTitle {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Body Paragraph */
+.projectBody {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Images */
+.projectImage {
+    max-width: 70%;
+    margin: 0 auto;
+    display: block;
+    height: auto;
+    border: 2px solid white;
+}
+
+/* Image Buttons */
+.imageButton {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    width: 120px;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.imageButton:active {
+    background-color: rgb(194, 194, 194);
+}
+
+/* Button Label */
+.buttonLabel {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: var(--pink1);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    width: 60px;
+}
+
+/* Button Container */
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 2vh;
+}

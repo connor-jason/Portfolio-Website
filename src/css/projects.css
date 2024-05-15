@@ -31,7 +31,7 @@
   transition: all .6s;
   transform: rotate(0deg);
   display: grid;
-  grid-template-rows: 1fr 2fr 4fr 1fr;
+  grid-template-rows: 1fr 2fr 3fr 1fr 1fr;
   grid-row: span 3;
   align-content: space-around;
 }
@@ -44,14 +44,15 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  transition: all 0.6s;
 }
 
 /* Styles for the span inside the card on hover */
 .card p:hover span {
   opacity: 1;
-  margin-inline: auto;
+  margin-inline: 5%;
   align-self: start;
-  padding: 2vh;
+  padding: 2vh 0;
 }
 
 /* Styles for the span inside the card */
@@ -66,7 +67,7 @@
   height: 100%;
   width: auto;
   transform: rotate(-90deg);
-  transition: all .6s;
+  transition: all 0.6s;
 }
 
 .card p a {
@@ -84,11 +85,17 @@
   }
   .card p {
     margin: 0;
+    max-width: 90vw;
   }
   .card p img {
-    width: 110%;
+    width: 150%;
     height: auto;
     transform: rotate(0deg);
     transition: all .6s;
   }
+
+  .card p:hover {
+    flex: 5;
+  }
+
 }

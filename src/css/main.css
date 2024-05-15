@@ -4,6 +4,7 @@
 @import url('about-me.css');
 @import url('timeline.css');
 @import url('footer.css');
+@import url('project-page.css');
 
 /* CSS variables */
 :root {
@@ -21,6 +22,8 @@ body {
     background-color: var(--background);
     background: var(--background);
     background: linear-gradient(162deg, rgba(14, 12, 14, 1) 0%, rgba(21, 0, 42, 1) 48%, rgba(0, 0, 24, 1) 100%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
     color: white;
 }
 
