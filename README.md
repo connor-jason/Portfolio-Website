@@ -15,8 +15,7 @@
 
 💭 **Process:**
 - The project began with setting up the React environment and structuring the components for the different sections of the website.
-- Each project section was implemented individually, including adding project descriptions, images, and links to project pages.
-- The contact form was integrated using React state management to handle form submission and input validation.
+- Each section was implemented individually using separate React components, including the landing, projects, about me, timeline, contact, and footer.
 - CSS was used to style the components and ensure a visually appealing layout on all devices.
 - The website was continuously tested and refined to ensure a smooth user experience.
 
