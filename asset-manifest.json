@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.03c2d8fe.css",
+    "main.js": "/static/js/main.f8cc1e0e.js",
+    "static/media/Portfolio_landing.png": "/static/media/Portfolio_landing.fd96fb51107415f9fb35.png",
+    "static/media/ReConnect_home.png": "/static/media/ReConnect_home.fb14fc961446fa2bc9ec.png",
+    "static/media/java.png": "/static/media/java.84e21b5f70bcaf40c161.png",
+    "static/media/ReConnect_profile.png": "/static/media/ReConnect_profile.892e9912fce50118173c.png",
+    "static/media/ReConnect_created.png": "/static/media/ReConnect_created.992123107500443b99d8.png",
+    "static/media/python.png": "/static/media/python.c44b9b809ebf766cbb4f.png",
+    "static/media/ReConnect_applications.png": "/static/media/ReConnect_applications.de75b1b7e94ba2f3f753.png",
+    "static/media/ReConnect_applied.png": "/static/media/ReConnect_applied.9d058448733f361909f9.png",
+    "static/media/ReConnect_aboutus.png": "/static/media/ReConnect_aboutus.6c1bb709880803ebf74f.png",
+    "static/media/ReConnect_login.png": "/static/media/ReConnect_login.1913d2de1aa052fbf52a.png",
+    "static/media/css.png": "/static/media/css.bee63b9e863f48d93bda.png",
+    "static/media/react.png": "/static/media/react.2a0cac33f155e4a27216.png",
+    "static/media/javascript.png": "/static/media/javascript.dafbcd7fb56fcfce553c.png",
+    "index.html": "/index.html",
+    "main.03c2d8fe.css.map": "/static/css/main.03c2d8fe.css.map",
+    "main.f8cc1e0e.js.map": "/static/js/main.f8cc1e0e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03c2d8fe.css",
+    "static/js/main.f8cc1e0e.js"
+  ]
+}
