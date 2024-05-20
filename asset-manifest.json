@@ -1,7 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.03c2d8fe.css",
-    "main.js": "/static/js/main.f8cc1e0e.js",
+    "main.css": "/static/css/main.47fc781d.css",
+    "main.js": "/static/js/main.42913a28.js",
+    "static/media/wavelength_home_2.png": "/static/media/wavelength_home_2.ced4af7e3db36268f7d7.png",
+    "static/media/wavelength_home_1.png": "/static/media/wavelength_home_1.4e24a0d0a93acdb083d4.png",
+    "static/media/wavelength_deck.png": "/static/media/wavelength_deck.2b71bc34f9d49df60d2d.png",
+    "static/media/wavelength_faq.png": "/static/media/wavelength_faq.721eb0fca3cb31445fac.png",
     "static/media/Portfolio_landing.png": "/static/media/Portfolio_landing.fd96fb51107415f9fb35.png",
     "static/media/ReConnect_home.png": "/static/media/ReConnect_home.fb14fc961446fa2bc9ec.png",
     "static/media/java.png": "/static/media/java.84e21b5f70bcaf40c161.png",
@@ -16,11 +20,11 @@
     "static/media/react.png": "/static/media/react.2a0cac33f155e4a27216.png",
     "static/media/javascript.png": "/static/media/javascript.dafbcd7fb56fcfce553c.png",
     "index.html": "/index.html",
-    "main.03c2d8fe.css.map": "/static/css/main.03c2d8fe.css.map",
-    "main.f8cc1e0e.js.map": "/static/js/main.f8cc1e0e.js.map"
+    "main.47fc781d.css.map": "/static/css/main.47fc781d.css.map",
+    "main.42913a28.js.map": "/static/js/main.42913a28.js.map"
   },
   "entrypoints": [
-    "static/css/main.03c2d8fe.css",
-    "static/js/main.f8cc1e0e.js"
+    "static/css/main.47fc781d.css",
+    "static/js/main.42913a28.js"
   ]
 }
