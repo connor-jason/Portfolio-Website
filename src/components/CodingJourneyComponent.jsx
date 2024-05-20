@@ -10,7 +10,7 @@ import React from 'react';
 const TimelineElementLeft = ({ title, description, date }) => {
   return (
     <>
-      <div class="timeline-component timeline-content">
+      <div class="timeline-component timeline-content" style={{ marginRight: '15px' }}>
           <h3>{title}</h3>
           <p>{description}</p>
       </div>
@@ -36,7 +36,7 @@ const TimelineElementRight = ({ title, description, date }) => {
         <div className="timeline-middle">
           <div className="timeline-circle"></div>
         </div>
-        <div className="timeline-component timeline-content">
+        <div className="timeline-component timeline-content" style={{ marginLeft: '15px' }}>
           <h3>{title}</h3>
           <p>{description}</p>
         </div>
