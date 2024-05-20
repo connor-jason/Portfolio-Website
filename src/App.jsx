@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import HomePage from './routing/HomePage';
 import ProjectPage from './routing/ProjectPage';
 import projects from './routing/router';
@@ -13,12 +13,16 @@ const App = () => {
   return (
     <>
     <Router>
-      <Routes>
-        <Route exact path="/" element={<HomePage />} />
+      <Switch>
+        <Route exact path="/">
+          <HomePage />
+        </Route>
         {projects.map((project) => (
-          <Route key={project.path} path={project.path} element={<ProjectPage project={project} />} />
+          <Route key={project.path} exact path={project.path}>
+            <ProjectPage project={project} />
+          </Route>
         ))}
-      </Routes>
+      </Switch>
     </Router>
     </>
   );

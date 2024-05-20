@@ -8,6 +8,10 @@ import ReConnect6 from '../images/ReConnect/ReConnect_applications.png';
 import ReConnect7 from '../images/ReConnect/ReConnect_aboutus.png';
 
 //Project 2
+import Wavelength1 from '../images/Wavelength/wavelength_home_1.png';
+import Wavelength2 from '../images/Wavelength/wavelength_home_2.png';
+import Wavelength3 from '../images/Wavelength/wavelength_deck.png';
+import Wavelength4 from '../images/Wavelength/wavelength_faq.png';
 
 //Project 3
 
@@ -41,16 +45,21 @@ const projects = [
     ],
   },
   {
-    name: "Project2",
-    description: "Description of Project2.",
-    skills: "",
-    path: "/Project2",
+    name: "Wavelength",
+    description: (
+      <span>
+        This project is a web application version of the popular TikTok card game "Wavelength". I don't own or claim to own any rights to this game, I just didn't want to buy the game and wait for shipping. I hand drew the game shown on the home page and made the website using React, HTML, and CSS, and made and hosted it on Firebase by Google. Play now at <a href='https://wavelength-6ce6f.web.app/' target="_blank" rel="noopener noreferrer">https://wavelength-6ce6f.web.app/</a>!
+      </span>
+    ),
+    skills: "React, Firebase, HTML/CSS, JavaScript, Git",
+    path: "/Wavelength",
     images: [
-      "https://via.placeholder.com/150",
-      "https://via.placeholder.com/150",
-      "https://via.placeholder.com/150",
+      Wavelength1,
+      Wavelength2,
+      Wavelength3,
+      Wavelength4,
     ],
-  },
+  },  
   {
     name: "Project3",
     description: "Description of Project3.",
