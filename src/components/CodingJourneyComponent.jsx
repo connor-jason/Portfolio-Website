@@ -61,6 +61,7 @@ const CodingJourneyComponent = () => {
           <TimelineElementRight title="HTML" description="Learned some HTML." date="2024" />
           <TimelineElementLeft title="CSS" description="Learned some CSS." date="2024" />
           <TimelineElementRight title="JavaScript" description="JavaScript programming language." date="2024" />
+          <TimelineElementLeft title="React" description="React JavaScript framework." date="2024" />
         </div>
       </section>
     </div>
