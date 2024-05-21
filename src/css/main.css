@@ -15,6 +15,19 @@
     --pink3: #a371b0;
 }
 
+/* Hide scroll bar because I don't want it */
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0; 
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
 /* Styles for the body */
 body {
     font-family: "Outfit", sans-serif;

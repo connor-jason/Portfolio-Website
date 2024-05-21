@@ -48,7 +48,7 @@ const projects = [
     name: "Wavelength",
     description: (
       <span>
-        This project is a web application version of the popular TikTok card game "Wavelength". I don't own or claim to own any rights to this game, I just didn't want to buy the game and wait for shipping. I hand drew the game shown on the home page and made the website using React, HTML, and CSS, and made and hosted it on Firebase by Google. Play now at <a href='https://wavelength-6ce6f.web.app/' target="_blank" rel="noopener noreferrer">https://wavelength-6ce6f.web.app/</a>!
+        This project is a web application version of the popular TikTok card game "Wavelength". I don't own or claim to own any rights to this game, I just didn't want to buy the game and wait for shipping. I hand drew the game shown on the home page and made the website using React, HTML, and CSS, and made and hosted it on Firebase by Google. The user has the ability to start a new round, which draws a new card and randomizes the game "triangle", the ability to view the comoplete card deck, and the ability to read my very helpful FAQ page. Play now at <a href='https://wavelength-6ce6f.web.app/' target="_blank" rel="noopener noreferrer">https://wavelength-6ce6f.web.app/</a>!
       </span>
     ),
     skills: "React, Firebase, HTML/CSS, JavaScript, Git",

@@ -81,7 +81,7 @@
 @media only screen and (max-width: 768px) {
   .card {
     flex-direction: column;
-    height: 110vh;
+    height: 100vh;
     margin: 0 auto 0;
   }
   .card p {

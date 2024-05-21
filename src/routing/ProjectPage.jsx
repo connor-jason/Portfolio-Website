@@ -20,7 +20,7 @@ const ProjectPage = ({ project }) => {
 
     return (
         <body>
-            <div>
+            <div style={{ padding: '20px' }}>
                 <Link to="/#projects">← Back</Link>
                 <h1 className="projectTitle">{project.name}</h1>
                 <p className="projectBody">{project.description}</p>
