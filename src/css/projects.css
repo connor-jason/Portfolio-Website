@@ -1,7 +1,7 @@
 /* Styles for the card container */
 .card {
-  width: 90vw;
-  height: 40vw;
+  width: 95vw;
+  height: 45vw;
   border-radius: 4px;
   display: flex;
   gap: 5px;
@@ -31,9 +31,9 @@
   transition: all .6s;
   transform: rotate(0deg);
   display: grid;
-  grid-template-rows: 1fr 2fr 3fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   grid-row: span 3;
-  align-content: space-around;
+  align-content: space-evenly;
 }
 
 /* Styles for the image inside the card on hover */
@@ -60,6 +60,7 @@
   transition: all .6s;
   justify-content: center;
   opacity: 0;
+  margin: auto;
 }
 
 /* Styles for the image inside the card */

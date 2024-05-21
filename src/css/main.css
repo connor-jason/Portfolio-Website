@@ -26,6 +26,7 @@ body {
     background-repeat: no-repeat;
     min-height: 100vh;
     color: white;
+    font-size: calc(0.4vw + 1.2vh);
 }
 
 /* CSS class to trigger fade-in animation used by developer word */

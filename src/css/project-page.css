@@ -56,3 +56,9 @@
     gap: 15px;
     margin-top: 2vh;
 }
+
+@media (max-width: 1024px) {
+    .projectImage {
+        max-width: 100%;
+    }
+}

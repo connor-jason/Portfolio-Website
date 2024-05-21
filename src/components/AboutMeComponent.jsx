@@ -21,10 +21,10 @@ const AboutMeComponent = () => {
         <p className="aboutMeBody">
         Hi, I'm Connor (again). I am a second-year student at Worcester Polytechnic Institute studying Computer Science. 
         I am very interested in emerging technologies, especially those involving Artificial Intelligence. So far, I have 
-        experience with Java, Python, JavaScript, React, HTML, and CSS. My favorite language to work with is currently Python
-        even though I used to be very anti-Python. I love how powerful and diverse it can be. This website was my first project
-        built using React which I have really enjoyed. I have used Flask with Python in the past, and this is significantly better
-        in comparison. I am always looking to learn more and expand my knowledge.
+        experience with Java, Python, JavaScript, React, HTML, and CSS. My favorite language to work with is currently Python: 
+        I love how powerful and diverse it can be. This website was my first project built using React 
+        which I have really enjoyed. I have used Flask with Python in the past, and this is significantly better
+        in comparison. I am always looking to learn more and solve new problems to expand my knowledge!
         </p>
         <div className="socialLinks">
           <a href="https://github.com/connor-jason" target="_blank" rel="noopener noreferrer">GitHub</a>

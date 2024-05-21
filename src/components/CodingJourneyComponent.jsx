@@ -55,13 +55,13 @@ const CodingJourneyComponent = () => {
       <div className="square"/>
       <section className="design-section">
         <div className="timeline">
-          <TimelineElementLeft title="Java" description="Java programming language." date="2021" />
-          <TimelineElementRight title="Python" description="Python programming language." date="2023" />
-          <TimelineElementLeft title="Flask" description="Flask web development." date="2024" />
-          <TimelineElementRight title="HTML" description="Learned some HTML." date="2024" />
-          <TimelineElementLeft title="CSS" description="Learned some CSS." date="2024" />
-          <TimelineElementRight title="JavaScript" description="JavaScript programming language." date="2024" />
-          <TimelineElementLeft title="React" description="React JavaScript framework." date="2024" />
+          <TimelineElementLeft title="Java" description="My first coding language was Java. I learned it in AP Computer Science A and continued to make little scripts and personal projects in it." date="2021" />
+          <TimelineElementRight title="Python" description="I then taught myself a little bit of Python, but still preferred Java at the time." date="2023" />
+          <TimelineElementLeft title="Flask" description="In CS3733 - Software Engineering, I revisited Python by learning and using Flask to create full stack applications." date="2024" />
+          <TimelineElementRight title="HTML" description="In the same course I learned a lot about HTML. A very simple, and even more repetitive language." date="2024" />
+          <TimelineElementLeft title="CSS" description="At the same time, I learned some basic CSS to create clean, organized, and coherent webpages." date="2024" />
+          <TimelineElementRight title="JavaScript" description="I next took an online course on JavaScript to learn the basics. This opened a lot of new doors for me in the world of web development." date="2024" />
+          <TimelineElementLeft title="React" description="The first path I took with JavaScript was learning React to create modern, modular websites (including this one!). This also allowed me to drastically improve my CSS skils, now learning how to make custom animations and more complex elements." date="2024" />
         </div>
       </section>
     </div>
