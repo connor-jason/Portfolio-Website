@@ -2,6 +2,7 @@
 
 👋 **Intro:**
 - This project is a personal portfolio website showcasing my projects and skills as a coder. It provides information about me, my coding journey, favorite projects, and a contact page. Feel free to explore and reach out if you have any questions or collaboration opportunities!
+- Visit now at: [connorjason.com](https://connorjason.com/)
 
 📦 **Tech Stack:**
 - React.js
