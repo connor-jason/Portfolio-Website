@@ -14,6 +14,9 @@ import Wavelength3 from '../images/Wavelength/wavelength_deck.png';
 import Wavelength4 from '../images/Wavelength/wavelength_faq.png';
 
 //Project 3
+import MinecraftAIAssistant1 from '../images/MinecraftAIAssistant/MinecraftAIAssistant_blank.png';
+import MinecraftAIAssistant2 from '../images/MinecraftAIAssistant/MinecraftAIAssistant_question.png';
+import MinecraftAIAssistant3 from '../images/MinecraftAIAssistant/MinecraftAIAssistant_response.png';
 
 //Project 4
 
@@ -61,14 +64,14 @@ const projects = [
     ],
   },  
   {
-    name: "Project3",
-    description: "Description of Project3.",
+    name: "Minecraft AI Assistant",
+    description: "Minecraft AI Assistant.",
     skills: "",
-    path: "/Project3",
+    path: "/MinecraftAIAssistant",
     images: [
-      "https://via.placeholder.com/150",
-      "https://via.placeholder.com/150",
-      "https://via.placeholder.com/150",
+      MinecraftAIAssistant1,
+      MinecraftAIAssistant2,
+      MinecraftAIAssistant3,
     ],
   },
   {
