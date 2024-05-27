@@ -47,6 +47,7 @@ const ProjectCards = () => {
           <ProjectCard title='ReConnect' image={ReConnect} description="ReConnect was a platform built to connect faculty members with college students to find the best candidates to fill research opportunities. This was a full stack website using Flask for the frontend and SQLite for the backend." skills="Flask, Python, HTML/CSS, SQLite, Git" path="/ReConnect" />
           <ProjectCard title='Wavelength' image={Wavelength} description="Wavelength is a web application version of the popular TikTok card game 'Wavelength'. It allows users to draw cards from a deck, toggle the cover on the spinner circle, view the entire deck, and view the FAQ page. The project is built using React and Firebase for real-time database management." skills="React, Firebase, HTML/CSS, JavaScript, Git" path="/Wavelength" />
           <ProjectCard title='Minecraft AI Assistant' image={MinecraftAIAssistant} description="Minecraft AI Assistant" skills="Flask, Ollama, NLP Models, AJAX, HTML/CSS, Git" path="/MinecraftAIAssistant" />
+          <ProjectCard title='Project4' image={Portfolio} description="Project 4" skills="" path="/Project4" />
           <ProjectCard title='This Website!' image={Portfolio} description="I built this portfolio website to show off my projects and skills as a coder! It displays a lot of information about me including my favorite projects, an about me, my coding journey, and a contact page." skills="React, JavaScript, HTML/CSS, Git" path="/PortfolioWebsite" />
       </div>
     </>
