@@ -65,8 +65,8 @@ const projects = [
   },  
   {
     name: "Minecraft AI Assistant",
-    description: "Minecraft AI Assistant.",
-    skills: "",
+    description: "I created a website that pairs with your local Ollama server to create a voice-activated Minecraft AI Assistant named Humphrey. This project was built using Flask for the backend and frontend because of it's compaitibility with the Python scripts I needed. I initally tried to create a Python backend with a React frontend by querying a custom API, but this felt rather redundant because I was querying an API that just queries an API. I next tried to make it with React + PyScript, but did not realize that PyScript supports only a few Python libraries. Throughout this process, I learned that the most obvious option may just be the best one (a full Python application).",
+    skills: "Flask, Ollama, NLP Models, AJAX, HTML/CSS, Git",
     path: "/MinecraftAIAssistant",
     images: [
       MinecraftAIAssistant1,
