@@ -1,7 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.47fc781d.css",
-    "main.js": "/static/js/main.42913a28.js",
+    "main.css": "/static/css/main.0a3ac354.css",
+    "main.js": "/static/js/main.24d60d79.js",
+    "static/media/MinecraftAIAssistant_response.png": "/static/media/MinecraftAIAssistant_response.d437dcd9e1f24f9a8d26.png",
+    "static/media/MinecraftAIAssistant_question.png": "/static/media/MinecraftAIAssistant_question.67b8b1bfd37185014e34.png",
+    "static/media/MinecraftAIAssistant_blank.png": "/static/media/MinecraftAIAssistant_blank.9763153a843d73be06e2.png",
     "static/media/wavelength_home_2.png": "/static/media/wavelength_home_2.ced4af7e3db36268f7d7.png",
     "static/media/wavelength_home_1.png": "/static/media/wavelength_home_1.4e24a0d0a93acdb083d4.png",
     "static/media/wavelength_deck.png": "/static/media/wavelength_deck.2b71bc34f9d49df60d2d.png",
@@ -20,11 +23,11 @@
     "static/media/react.png": "/static/media/react.2a0cac33f155e4a27216.png",
     "static/media/javascript.png": "/static/media/javascript.dafbcd7fb56fcfce553c.png",
     "index.html": "/index.html",
-    "main.47fc781d.css.map": "/static/css/main.47fc781d.css.map",
-    "main.42913a28.js.map": "/static/js/main.42913a28.js.map"
+    "main.0a3ac354.css.map": "/static/css/main.0a3ac354.css.map",
+    "main.24d60d79.js.map": "/static/js/main.24d60d79.js.map"
   },
   "entrypoints": [
-    "static/css/main.47fc781d.css",
-    "static/js/main.42913a28.js"
+    "static/css/main.0a3ac354.css",
+    "static/js/main.24d60d79.js"
   ]
 }
