@@ -19,6 +19,16 @@ import MinecraftAIAssistant2 from '../images/MinecraftAIAssistant/MinecraftAIAss
 import MinecraftAIAssistant3 from '../images/MinecraftAIAssistant/MinecraftAIAssistant_response.png';
 
 //Project 4
+import IA_landing from '../images/IAWebsite/IA_landing.png';
+import IA_getinvolved1 from '../images/IAWebsite/IA_getinvolved1.png';
+import IA_getinvolved2 from '../images/IAWebsite/IA_getinvolved2.png';
+import IA_events from '../images/IAWebsite/IA_events.png';
+import IA_history1 from '../images/IAWebsite/IA_history1.png';
+import IA_history2 from '../images/IAWebsite/IA_history2.png';
+import IA_meettheteam1 from '../images/IAWebsite/IA_meettheteam1.png';
+import IA_meettheteam2 from '../images/IAWebsite/IA_meettheteam2.png';
+import IA_profile from '../images/IAWebsite/IA_profile.png';
+import IA_contactus from '../images/IAWebsite/IA_contactus.png';
 
 //Project 5
 import Portfolio1 from '../images/Portfolio/Portfolio_landing.png';
@@ -72,6 +82,24 @@ const projects = [
       MinecraftAIAssistant1,
       MinecraftAIAssistant2,
       MinecraftAIAssistant3,
+    ],
+  },
+  {
+    name: "Investing Association Club Website",
+    description: "I led a team of 4 to develop the website for the WPI Investing Association. The site is built with React and Tailwind CSS, and is fully responsive, providing an intuitive platform for the association to showcase their mission, events, team, and job placements. This project was a great learning experience for me as it was my first time leading a team of developers. I learned a lot about how to structure a website and handle version-control with a team of developers.",
+    skills: "React, Tailwind CSS, HTML/CSS, JavaScript, Git, GitLab",
+    path: "/InvestingAssociationWebsite",
+    images: [
+      IA_landing,
+      IA_getinvolved1,
+      IA_getinvolved2,
+      IA_events,
+      IA_history1,
+      IA_history2,
+      IA_meettheteam1,
+      IA_meettheteam2,
+      IA_profile,
+      IA_contactus
     ],
   },
   {
