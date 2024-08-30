@@ -62,6 +62,8 @@ const CodingJourneyComponent = () => {
           <TimelineElementLeft title="CSS" description="At the same time, I learned some basic CSS to create clean, organized, and coherent webpages." date="2024" />
           <TimelineElementRight title="JavaScript" description="I next took an online course on JavaScript to learn the basics. This opened a lot of new doors for me in the world of web development." date="2024" />
           <TimelineElementLeft title="React" description="The first path I took with JavaScript was learning React to create modern, modular websites (including this one!). This also allowed me to drastically improve my CSS skils, now learning how to make custom animations and more complex elements." date="2024" />
+          <TimelineElementRight title="Firebase" description="I then learned Firebase to create real-time databases for my React applications. This was a game changer for me, as it allowed me to create more interactive and dynamic websites." date="2024" />
+          <TimelineElementLeft title="Tailwind CSS" description="I next started experimenting with Tailwind CSS, as it was a favorite of many, but I wasn't sure why. Over the course of a few different websites, I decided I will never (voluntarily) go back to vanilla CSS styling." date="2024" />
         </div>
       </section>
     </div>

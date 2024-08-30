@@ -75,15 +75,6 @@ const projects = [
     ],
   },
   {
-    name: "Project 4",
-    description: "Project 4",
-    skills: "",
-    path: "/Project4",
-    images: [
-      Portfolio1,
-    ],
-  },
-  {
     name: "PortfolioWebsite",
     description: "I built this portfolio website to show off my projects and skills as a coder! It displays a lot of information about me including my favorite projects, an about me, my coding journey, and a contact page. This website began in Flask, since that was what I was familiar and comfortable with, but I quickly decided to switch to a JavaScript-based framework to develop this website because of the ease of use and the ability to create a more dynamic website and to learn a new, in-demand skill. I have learned a lot about React, JavaScript, and especially CSS in the process of building this website.",
     skills: "React, JavaScript, HTML, CSS, Git",
