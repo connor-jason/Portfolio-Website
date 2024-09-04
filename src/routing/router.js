@@ -86,7 +86,9 @@ const projects = [
   },
   {
     name: "Investing Association Club Website",
-    description: "I led a team of 4 to develop the website for the WPI Investing Association. The site is built with React and Tailwind CSS, and is fully responsive, providing an intuitive platform for the association to showcase their mission, events, team, and job placements. This project was a great learning experience for me as it was my first time leading a team of developers. I learned a lot about how to structure a website and handle version-control with a team of developers.",
+    description: <span>
+      I led a team of 4 to develop the website for the WPI Investing Association. The site is built with React and Tailwind CSS, and is fully responsive, providing an intuitive platform for the association to showcase their mission, events, team, and job placements. This project was a great learning experience for me as it was my first time leading a team of developers. I learned a lot about how to structure a website and handle version-control with a team of developers. Visit now at <a href="https://investing.wpi.edu" target="_blank" rel="noopener noreferrer">https://investing.wpi.edu</a>,
+      </span>,
     skills: "React, Tailwind CSS, HTML/CSS, JavaScript, Git, GitLab",
     path: "/InvestingAssociationWebsite",
     images: [
