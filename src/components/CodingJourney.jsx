@@ -46,9 +46,9 @@ const TimelineElementRight = ({ title, description, date }) => {
 
 /**
  * Represents the coding journey component.
- * @returns {JSX.Element} The rendered coding journey component.
+ * @returns {JSX.Element} The rendered CodingJourney component.
  */
-const CodingJourneyComponent = () => {
+const CodingJourney = () => {
   return (
     <div id="coding-journey" style={{ marginTop: '10vh' }}>
       <div className="section-head">My Coding Journey</div>
@@ -70,4 +70,4 @@ const CodingJourneyComponent = () => {
   );
 };
 
-export default CodingJourneyComponent;
+export default CodingJourney;

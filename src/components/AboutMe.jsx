@@ -12,7 +12,7 @@ import jsLogo from '../images/CSLogos/javascript.png';
  * Represents the About Me component.
  * @returns {JSX.Element} The rendered about me element.
  */
-const AboutMeComponent = () => {
+const AboutMe = () => {
   return (
     <div id="about-me" style={{ marginTop: '10vh' }}>
       <div className="container" style={{ textAlign: 'center' }}>
@@ -55,4 +55,4 @@ const AboutMeComponent = () => {
   );
 };
 
-export default AboutMeComponent;
+export default AboutMe;

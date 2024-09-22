@@ -2,9 +2,9 @@ import React from 'react';
 
 /**
  * Footer component for the website.
- * @returns {JSX.Element} The rendered FooterComponent.
+ * @returns {JSX.Element} The rendered Footer.
  */
-const FooterComponent = () => {
+const Footer = () => {
     return (
         <>
         <div class="square" style={{ width:'100%', marginTop: '8vh', marginBottom: '2vh'}}/>
@@ -16,4 +16,4 @@ const FooterComponent = () => {
     );
 };
 
-export default FooterComponent;
+export default Footer;

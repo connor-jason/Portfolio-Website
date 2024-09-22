@@ -1,10 +1,10 @@
 import React from 'react';
-import TitleComponent from '../components/TitleComponent';
+import Title from '../components/Title';
 import ProjectCard from '../components/ProjectCard';
-import AboutMeComponent from '../components/AboutMeComponent';
-import CodingJourneyComponent from '../components/CodingJourneyComponent';
-import FooterComponent from '../components/FooterComponent';
-import ContactMeComponent from '../components/ContactMeComponent';
+import AboutMe from '../components/AboutMe';
+import CodingJourney from '../components/CodingJourney';
+import Footer from '../components/Footer';
+import ContactMe from '../components/ContactMe';
 
 /**
  * Renders the Home page.
@@ -13,12 +13,12 @@ import ContactMeComponent from '../components/ContactMeComponent';
 const Home = () => {
     return (
         <>
-            <TitleComponent />
+            <Title />
             <ProjectCard />
-            <AboutMeComponent />
-            <CodingJourneyComponent />
-            <ContactMeComponent />
-            <FooterComponent />
+            <AboutMe />
+            <CodingJourney />
+            <ContactMe />
+            <Footer />
         </>
     );
 };
