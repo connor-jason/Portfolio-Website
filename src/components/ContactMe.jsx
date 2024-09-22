@@ -40,7 +40,7 @@ const ContactMe = () => {
                 {isSubmitted ? (
                     <div className="thank-you-message">
                         <h1>Thank You!</h1>
-                        <p>Your message has been successfully sent. We will contact you soon.</p>
+                        <p>Your message has been successfully sent. I will contact you soon.</p>
                     </div>
                 ) : (
                     <form ref={form} onSubmit={sendEmail} className="email-form">
