@@ -1,5 +1,7 @@
 # 🧑‍💻 Portfolio Website 🖼️
 
+![Portflio Website](https://github.com/connor-jason/connor-jason.github.io/assets/99488409/9b1f1fd1-df62-4f07-8e14-e640be83a0dd)
+
 👋 **Intro:**
 - This project is a personal portfolio website showcasing my projects and skills as a coder. It provides information about me, my coding journey, favorite projects, and a contact page. Feel free to explore and reach out if you have any questions or collaboration opportunities!
 - Visit now at: [connorjason.com](https://connorjason.com/)
@@ -35,7 +37,3 @@ To run the project locally:
 - Clone the repository from GitHub.
 - Install dependencies using `npm install`.
 - Start the development server with `npm start`.
-
-📸 **Video of the Website:**
-
-![Portflio Website](https://github.com/connor-jason/connor-jason.github.io/assets/99488409/9b1f1fd1-df62-4f07-8e14-e640be83a0dd)
